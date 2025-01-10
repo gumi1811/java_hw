@@ -8,6 +8,7 @@ public class Student {
   public Student(String name, Integer id) {
     this.name = name;
     this.id = id;
+    this.year = 1;
   }
 
   public String getName() {
@@ -18,15 +19,15 @@ public class Student {
     return id;
   }
 
-  public void setYear(Integer year) {
-    this.year = year;
+  public void increaseYear(Integer year) {
+    this.year = this.year + 1;
   }
 
   public static void main(String[] args) {
     Student student = new Student("Гульмира", 5);
     System.out.println(student.getName());
     System.out.println(student.getId());
-    student.setYear(2024);
+    student.increaseYear(1);
     System.out.println(student.year);
   }
 }
