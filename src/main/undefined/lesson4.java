@@ -1,4 +1,4 @@
-package main;
+package main.undefined;
 
 public class lesson4 {
   public static void main(String[] args) {

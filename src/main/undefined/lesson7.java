@@ -1,4 +1,4 @@
-package main;
+package main.undefined;
 
 public class lesson7 {
   static int min(int a, int b, int c) {

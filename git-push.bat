@@ -1,1 +1,1 @@
-git add . && git commit -m "bugs fixed" && git push origin main
+git add . && git commit -m "bugs fixed" && git push origin main && git push origin main

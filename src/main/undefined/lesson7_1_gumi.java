@@ -1,4 +1,4 @@
-package main;
+package main.undefined;
 
 public class lesson7_1_gumi {
   static int minNum(int x, int y, int j) {
